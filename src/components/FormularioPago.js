@@ -181,9 +181,9 @@ const FormularioPago = () => {
             <tbody>
               {formdata.map((arr, index) => (
                 <tr key={index}>
-                  <td>************{arr.number.substring(12, 16)}</td>
-                  <td>{arr.expiry}</td>
+                  <td>************{arr.number.substring(12, 16)}</td>                  
                   <td>{arr.name}</td>
+                  <td>{arr.expiry}</td>
                   <td>
                     <button
                       className="btn btn-danger mx-1"
