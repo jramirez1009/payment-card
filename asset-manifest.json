@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/payment-card/static/css/main.13fe0c87.css",
+    "main.js": "/payment-card/static/js/main.dd3c5f21.js",
+    "static/js/787.f2293c3c.chunk.js": "/payment-card/static/js/787.f2293c3c.chunk.js",
+    "index.html": "/payment-card/index.html",
+    "main.13fe0c87.css.map": "/payment-card/static/css/main.13fe0c87.css.map",
+    "main.dd3c5f21.js.map": "/payment-card/static/js/main.dd3c5f21.js.map",
+    "787.f2293c3c.chunk.js.map": "/payment-card/static/js/787.f2293c3c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.13fe0c87.css",
+    "static/js/main.dd3c5f21.js"
+  ]
+}
