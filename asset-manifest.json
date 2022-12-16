@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/payment-card/static/css/main.13fe0c87.css",
-    "main.js": "/payment-card/static/js/main.5a95599d.js",
+    "main.css": "/payment-card/static/css/main.fd57041c.css",
+    "main.js": "/payment-card/static/js/main.68c7dcd2.js",
     "static/js/787.f2293c3c.chunk.js": "/payment-card/static/js/787.f2293c3c.chunk.js",
     "index.html": "/payment-card/index.html",
-    "main.13fe0c87.css.map": "/payment-card/static/css/main.13fe0c87.css.map",
-    "main.5a95599d.js.map": "/payment-card/static/js/main.5a95599d.js.map",
+    "main.fd57041c.css.map": "/payment-card/static/css/main.fd57041c.css.map",
+    "main.68c7dcd2.js.map": "/payment-card/static/js/main.68c7dcd2.js.map",
     "787.f2293c3c.chunk.js.map": "/payment-card/static/js/787.f2293c3c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.13fe0c87.css",
-    "static/js/main.5a95599d.js"
+    "static/css/main.fd57041c.css",
+    "static/js/main.68c7dcd2.js"
   ]
 }
