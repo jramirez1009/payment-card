@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import Cards from "react-credit-cards";
 import "react-credit-cards/es/styles-compiled.css";
+import { Validator } from './validator'
+import HeaderTitle from './HeaderTitle'
 
 const FormularioPago = () => {
   const [state, setState] = useState({
@@ -43,6 +45,8 @@ const FormularioPago = () => {
       errors.number = "El campo Número no puede ser vacío";
     }else if(state.number.length !== 16){
       errors.number = "Número incompleto";
+    }else if(state.number.substring(0,1) !== '4' && state.number.substring(0,2) !== '55' && state.number.substring(0,2) !== '51' && !Validator(state.number.substring(0,4)) ){       
+      errors.number = "Número no válido";
     }
     if (!state.expiry.trim()) {
       errors.expiry = "La fecha de expiración no puede ser vacía";
@@ -76,6 +80,7 @@ const FormularioPago = () => {
   return (
     <div className="container">
       <div className="row">
+      <HeaderTitle/>
         <div className="col-sm-12 col-md-6 col-lg-6 col-xl-6">
           <div className="card">
             <div className="card-body">
